@@ -1,8 +1,7 @@
 
 body{
     background-color: #DEB887;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin: 0 auto;
     border: 4px dotted gray;
     padding: 10px 10px 10px 10px;
     font-family: sans-serif;
@@ -13,7 +12,10 @@ body{
 }
 
 #iniciar{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container-logo{
@@ -159,7 +161,7 @@ body{
     color: #1a0d04;
     background-color: #6F4E37;
     border-radius: 20px;
-    margin: 15px auto  ;
+    margin: 0 auto  ;
     width: 55%;
     
 
