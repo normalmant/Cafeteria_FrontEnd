@@ -17,65 +17,67 @@
 
 
 
-    <div id="inicio">
-    <h1 class="titulo">Café Starbuzz</h1>
+<div id="inicio">
 
-    <p class="subtitulo">Sabores especiais para o seu dia</p>
+    <section class="topoSite-cafe">
 
-    <div class="imagens">
-        <img class="image" src="CAFÉ1.jpeg">
-        <img class="image" src="CAFÉ2.jpeg">
-        <img class="image" src="CAFÉ3.jpeg">
+        <div class="topoSite-texto">
+            <h1>O melhor café da cidade</h1>
+            <p>
+                Descubra sabores únicos, aromas marcantes e experiências inesquecíveis.
+            </p>
+
+            <button class="btn-cardapio">Ver Cardápio</button>
+        </div>
+
+        <div class="topoSite-imagem">
+            <img src="CAFÉ1.jpeg">
+        </div>
+
+    </section>
+
+    <section class="menu-destaque">
+
+        <h1 class="secoes">Nossos Destaques</h1>
+
+        <div class="cards-grid">
+
+            <div class="produto-card">
+                <img src="CAFÉ1.jpeg">
+                <h2>Capuccino</h2>
+                <p>R$8,50</p>
+            </div>
+
+            <div class="produto-card">
+                <img src="CAFÉ2.jpeg">
+                <h2>Café Arábico</h2>
+                <p>R$7,50</p>
+            </div>
+
+            <div class="produto-card">
+                <img src="CAFÉ3.jpeg">
+                <h2>Chá Chai</h2>
+                <p>R$9,00</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="avaliacao">
+        <h2 id="mensagemAvalia">Avalie nosso café</h2>
+
+        <div class="estrelas">
+            <span onclick="avaliar(1)">⭐</span>
+            <span onclick="avaliar(2)">⭐</span>
+            <span onclick="avaliar(3)">⭐</span>
+            <span onclick="avaliar(4)">⭐</span>
+            <span onclick="avaliar(5)">⭐</span>
+        </div>
+
+        <p id="resultado">Nenhuma avaliação ainda</p>
     </div>
 
-    <div class="conteudo">
-
-        <h1 class="secoes">Bebidas Especiais</h1>
-
-        <div class="card-menu">
-            <h2>Mistura da Casa <span>R$6,00</span></h2>
-            <p>Uma mistura suave e delicada de cafés do México, Bolívia e Guatemala.</p>
-        </div>
-
-        <div class="card-menu">
-            <h2>Café Arábico com leite <span>R$7,50</span></h2>
-            <p>Expresso, leite fervido e xarope de chocolate.</p>
-        </div>
-
-        <div class="card-menu">
-            <h2>Capuccino <span>R$8,50</span></h2>
-            <p>Uma mistura de expresso, leite fervido e creme.</p>
-        </div>
-
-        <div class="card-menu">
-            <h2>Chá Chai <span>R$9,00</span></h2>
-            <p>Bebida condimentada com chá preto, especiarias, leite e mel.</p>
-        </div>
-
-        <h1 class="secoes">Bolos e Salgados</h1>
-
-        <div class="card-menu">
-            <h2>Bolo Red Velvet <span>R$10,00</span></h2>
-            <p>Massa fofinha e saborosa com cobertura cremosa.</p>
-        </div>
-
-   <div class="avaliacao">
-      <h2 id="mensagemAvalia">Avalie nosso café</h2>
-
-      <div class="estrelas">
-         <span onclick="avaliar(1)">⭐</span>
-         <span onclick="avaliar(2)">⭐</span>
-         <span onclick="avaliar(3)">⭐</span>
-         <span onclick="avaliar(4)">⭐</span>
-         <span onclick="avaliar(5)">⭐</span>
-      </div>
-
-      <p id="resultado">Nenhuma avaliação ainda</p>
-   </div>
-
-
-
-    </div>
 </div>
 
         <div id="iniciar">
