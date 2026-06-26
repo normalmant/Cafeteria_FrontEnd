@@ -190,9 +190,54 @@ body{
     flex-wrap: wrap;
 }
 
+#mensagemAvalia{
+    text-align: center;
+    font-size: 32px;
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-family: Verdana, sans-serif;
+    text-shadow: 2px 2px 4px #d9b38c;
+}
+
+.estrelas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.estrelas span{
+    
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+  
+}
+
+.estrelas span:hover{
+    transform: scale(1.2);
+}
 
 
+.avaliacao{
+    text-align: center;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fffaf0;
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
 
+#resultado{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #6F4E37;
+    font-weight: bold;
+    background: white;
+    border-radius: 12px;
+    border: 2px solid #8B4513;
+    display: inline-block;
+}
 
 
 .rodape{

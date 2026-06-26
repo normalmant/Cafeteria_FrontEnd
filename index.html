@@ -6,7 +6,7 @@
 
 
 <link rel="stylesheet" type="text/css" href="style.css">
-=======
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
 
@@ -59,6 +59,22 @@
             <p>Massa fofinha e saborosa com cobertura cremosa.</p>
         </div>
 
+   <div class="avaliacao">
+      <h2 id="mensagemAvalia">Avalie nosso café</h2>
+
+      <div class="estrelas">
+         <span onclick="avaliar(1)">⭐</span>
+         <span onclick="avaliar(2)">⭐</span>
+         <span onclick="avaliar(3)">⭐</span>
+         <span onclick="avaliar(4)">⭐</span>
+         <span onclick="avaliar(5)">⭐</span>
+      </div>
+
+      <p id="resultado">Nenhuma avaliação ainda</p>
+   </div>
+
+
+
     </div>
 </div>
 
@@ -104,6 +120,11 @@
          document.getElementById("iniciar").style.display="none"
 
     }
+
+    function avaliar(nota){
+    document.getElementById("resultado").innerText =
+    "Você avaliou com " + nota + " estrela(s)!";
+}
 
 
 
